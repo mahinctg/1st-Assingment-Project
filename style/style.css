@@ -21,25 +21,100 @@ text-align: center;
 .new{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 9px;
+font-size: 11px;
 font-weight: 400;
 line-height: 15px;
 letter-spacing: 0%;
 text-align: center;
 }
-.btn{
-    color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 11px;
-font-weight: 600;
-line-height: 13px;
-letter-spacing: 0%;
-text-align: center;
-border-radius: 5px;
-background: rgb(13, 19, 33);
-}
-.btn-contant{
+.btn-contant {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 14px 12px 14px;
+    height: 100%; 
+ }
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(13, 19, 33);
+    padding: 8px 16px;
+  }
+
+  .tittle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+    margin-top: 0; 
+    margin-bottom: 20px;
+  }
+.img{
+    text-align: center; 
+}
+.img2{
+    text-align: right; 
+}
+.layer{
+    display: flex;
+}
+.group3{
+    display: flex;
+}
+.group4{
+    display: flex;
+}
+.dascripation{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+#back{
+    border-radius: 9px;
+background: rgba(13, 19, 33, 0.02);
+}
+.back-content{
+    position: absolute;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 44px 54px 44px 54px;
+}
+
+  .tittle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center; 
+    margin: 0;
+  }
+.dascripation{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 9px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#back{
+    border-radius: 9px;
+background: rgba(13, 19, 33, 0.02);
 }
